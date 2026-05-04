@@ -1,0 +1,160 @@
+:root {
+    --azul-peniche: #3498db;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-vh-100;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: var(--azul-peniche) !important;
+    border-bottom: 2px solid #000;
+}
+
+.custom-navbar .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.custom-navbar .nav-link.active {
+    text-decoration: underline;
+}
+
+/* IMAGEM CENTRAL (HERO) - Ajuste de Tamanho */
+.image-central {
+    max-width: 450px !important; /* Tamanho controlado */
+    height: auto;
+    border: 2px solid #000;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* ÍCONES - Ajuste Fino */
+.icon-wrapper {
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img-icon-surf {
+    width: 65px !important;
+    height: auto;
+}
+
+.img-icon-fortaleza {
+    height: 50px !important;
+    width: auto;
+}
+
+.img-icon-berlengas {
+    height: 45px !important;
+    width: auto;
+}
+
+.highlights h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.highlights p {
+    font-size: 0.9rem;
+    max-width: 250px;
+}
+
+/* FOOTER */
+.custom-footer {
+    background-color: var(--azul-peniche) !important;
+    border-top: 2px solid #000;
+    color: #000;
+}
+
+.footer-link {
+    color: #000 !important;
+    font-weight: 900;
+}
+/* Estilo Adicional para Cards no Património */
+.card {
+    transition: transform 0.2s;
+    border-radius: 0; /* Bordas retas combinam mais com o estilo robusto da imagem */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Pequeno efeito ao passar o rato */
+}
+
+.card-img-top {
+    border-bottom: 2px solid #000;
+:root {
+    --azul-peniche: #3498db;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: var(--azul-peniche) !important;
+    border-bottom: 2px solid #000;
+}
+
+.custom-navbar .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+/* CONTACTOS & CONTEÚDO */
+.contact-box {
+    background: white;
+    border: 2px solid #000;
+    padding: 25px;
+    height: 100%;
+}
+
+.social-link {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+    background: white;
+}
+
+.social-link:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* FOOTER */
+.custom-footer {
+    background-color: var(--azul-peniche) !important;
+    border-top: 2px solid #000;
+    margin-top: auto;
+}

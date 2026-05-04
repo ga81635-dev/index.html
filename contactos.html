@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Peniche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">PENICHE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="localizacao.html">LOCALIZAÇÃO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">HISTÓRIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="patrimonio.html">PATRIMÓNIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gastronomia.html">GASTRONOMIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="desporto.html">DESPORTO/TURISMO</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contactos.html">CONTACTOS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header class="bg-light py-5 border-bottom border-dark">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-uppercase">Contactos</h1>
+            <p class="lead">Dúvidas sobre a sua visita? Fale connosco.</p>
+        </div>
+    </header>
+
+    <!-- Secção Principal de Contacto -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                
+                <!-- Formulário -->
+                <div class="col-lg-7">
+                    <div class="contact-box shadow-sm">
+                        <h3 class="fw-bold mb-4 text-uppercase">Envie-nos uma Mensagem</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="fw-bold">Nome</label>
+                                    <input type="text" class="form-control border-dark rounded-0" placeholder="Seu nome">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="fw-bold">Email</label>
+                                    <input type="email" class="form-control border-dark rounded-0" placeholder="seu@email.com">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="fw-bold">Assunto</label>
+                                <select class="form-select border-dark rounded-0">
+                                    <option>Informações Turísticas</option>
+                                    <option>Eventos e Desporto</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="fw-bold">Mensagem</label>
+                                <textarea class="form-control border-dark rounded-0" rows="5" placeholder="Escreva aqui a sua dúvida..."></textarea>
+                            </div>
+                            <button class="btn btn-dark w-100 rounded-0 fw-bold text-uppercase py-2">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Info Direta e Horários -->
+                <div class="col-lg-4">
+                    <div class="contact-box shadow-sm mb-4">
+                        <h4 class="fw-bold text-uppercase">Informações</h4>
+                        <p class="mb-1"><strong>Endereço:</strong> Rua Alexandre Herculano, Peniche</p>
+                        <p class="mb-1"><strong>Telefone:</strong> +351 262 780 100</p>
+                        <p class="mb-3"><strong>Email:</strong> turismo@cm-peniche.pt</p>
+                        
+                        <hr class="border-dark">
+                        
+                        <h4 class="fw-bold text-uppercase mt-3">Horário de Atendimento</h4>
+                        <ul class="list-unstyled small">
+                            <li>Segunda a Sexta: 09h00 - 18h00</li>
+                            <li>Sábado e Domingo: 10h00 - 17h00</li>
+                        </ul>
+                    </div>
+
+                    <!-- Redes Sociais -->
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <a href="https://facebook.com/municipiodepeniche" target="_blank" class="social-link text-center">FACEBOOK</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="https://instagram.com/municipiodepeniche" target="_blank" class="social-link text-center">INSTAGRAM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Perguntas Frequentes (FAQ) -->
+    <section class="py-5 bg-white border-top border-dark">
+        <div class="container">
+            <h3 class="fw-bold text-center mb-5 text-uppercase">Perguntas Frequentes</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="accordion border border-dark" id="faqAccordion">
+                        <div class="accordion-item rounded-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Como reservar a viagem para as Berlengas?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Deve contactar os operadores marítimo-turísticos no porto de Peniche ou reservar online nos sites oficiais. Lembre-se que o acesso à ilha é limitado por dia.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item rounded-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Onde posso alugar pranchas de Surf?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Existem dezenas de Surf Schools ao longo da Praia do Baleal e da Praia de Supertubos com aluguer de material.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="custom-footer py-4">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="fw-bold fs-5">PENICHE TURISMO</span>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <small class="fw-bold">&copy; 2026 A MINHA TERRA: PENICHE</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
