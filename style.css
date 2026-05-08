@@ -185,3 +185,6 @@ img, .img-fluid, .img-ajustada {
     margin: 0 auto !important;
     object-fit: contain !important; 
 }
+.custom-navbar {
+    background-color: #3498db !important; /* Cor azul */
+}
