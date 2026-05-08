@@ -178,12 +178,18 @@ body {
     margin-top: auto;
 }
 
-.img-ajustada {
-    width: 100%;           
-    height: auto;          
-    max-height: 400px;     
-    object-fit: contain;   
-    display: block;
-    margin: 0 auto;        
-    border-radius: 8px;    
+
+img, .img-fluid, .img-ajustada {
+    max-width: 100% !important;
+    height: auto !important; 
+    display: block !important;
+    margin: 0 auto !important;
+    object-fit: contain !important; 
+}
+}
+.navbar-toggler {
+    border-color: rgba(0,0,0,0.1) !important; /* Dá uma borda ao botão */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3Base path fill='rgba(0, 0, 0, 0.5)' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
