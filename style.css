@@ -193,3 +193,11 @@ img, .img-fluid, .img-ajustada {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3Base path fill='rgba(0, 0, 0, 0.5)' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
+.navbar-brand span {
+    color: white !important; /* Para o nome PENICHE ficar branco no azul */
+}
+
+.custom-navbar {
+    background-color: #3498db !important; /* O teu azul */
+    padding: 10px 0;
+}
