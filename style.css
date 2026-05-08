@@ -177,3 +177,11 @@ body {
     border-top: 2px solid #000;
     margin-top: auto;
 }
+
+img, .img-fluid, .img-ajustada {
+    max-width: 100% !important;
+    height: auto !important; 
+    display: block !important;
+    margin: 0 auto !important;
+    object-fit: contain !important; 
+}
